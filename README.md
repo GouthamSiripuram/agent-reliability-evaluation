@@ -39,4 +39,3 @@ This is an AI-assisted methodology and synthetic demonstration release, not a pe
 The supplied `paper/main.pdf` is preserved, but its original build has unresolved citations because BibTeX was unavailable. Treat it as a draft. Rebuild from `paper/main.tex` and `paper/references.bib` with `pdflatex main`, `bibtex main`, then `pdflatex main` twice before paper submission.
 
 The generation script reproduces the task catalog only. It does not regenerate `synthetic_reference_runs.jsonl`; those supplied synthetic runs remain available for reproducing scoring. No claim of complete run-data generation reproducibility is made.
-

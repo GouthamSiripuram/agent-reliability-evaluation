@@ -1,0 +1,27 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,booktabs,graphicx,hyperref}
+\title{Five-Dimensional Reliability Evaluation for Enterprise AI Agents:\\A Reproducible Framework and Synthetic Stress-Test Suite}
+\author{Goutham Siripuram\\Independent Researcher}
+\date{October 2026}
+\begin{document}\maketitle
+\begin{abstract}
+Agentic artificial intelligence systems execute multi-step trajectories involving reasoning, tool use, memory, and external state changes. Mean task success can obscure operational properties required for deployment. We introduce a five-dimensional evaluation framework covering task fidelity, recovery robustness, action safety, cost-latency efficiency, and evidence-observability. We release a v0.2 reference implementation, synthetic enterprise stress-test tasks, demonstration outputs, adversarial unit tests, and a reproducible notebook. The framework uses geometric aggregation while treating unobserved recovery as missing rather than perfect. The release is explicitly methodological: synthetic results illustrate scoring behavior and are not claims about real language models. We specify a protocol for extending the suite to real agent systems through repeated trials, controlled perturbations, policy-boundary tests, and trace auditing.
+\end{abstract}
+\section{Introduction}
+LLM agents increasingly interleave reasoning with action \cite{yao2023react}, use feedback and memory \cite{shinn2023reflexion}, and operate in interactive environments. AgentBench \cite{liu2024agentbench}, WebArena \cite{zhou2024webarena}, GAIA \cite{mialon2024gaia}, WorkArena \cite{drouin2024workarena}, and OSWorld \cite{xie2024osworld} illustrate this shift. Task success alone does not capture consistency, recovery, authorization boundaries, economics, or auditability.
+\section{Framework}
+For each run we compute five normalized dimensions: Task Fidelity $F$, Recovery Robustness $R$, Action Safety $S$, Cost-Latency Efficiency $C$, and Evidence-Observability $E$. For observed dimensions with normalized weights $w_i$, we define
+\[Q=\exp\left(\sum_i w_i\log(\max(\epsilon,x_i))\right).\]
+If a dimension is genuinely unobserved (for example no recovery event was tested), v0.2 does not award a perfect value; the default composite renormalizes across observed dimensions and reports the missing component separately.
+\section{Synthetic Stress-Test Suite}
+The release contains enterprise workflow task specifications paired with perturbations such as tool timeout, malformed output, prompt injection, stale state, and permission boundaries. All bundled demonstration observations are labeled synthetic.
+\section{Reference Implementation and Correctness}
+Version 0.2 validates finite inputs, enforces metric ranges, rejects impossible recovery counts, distinguishes unobserved recovery from successful recovery, and adds tests for these edge cases. A helper computes repeated-run consistency from binary outcomes; real studies should derive consistency from repeated executions rather than manually assigning it.
+\section{Protocol for Real-Agent Validation}
+Future empirical work should preregister agent versions, prompts, tools, budgets, success conditions, perturbations, and primary metrics; execute repeated trials; report uncertainty and effect sizes; retain raw trajectories; and avoid using the synthetic demonstration numbers for comparative model claims.
+\section{Limitations}
+Weights are domain dependent and several submetrics require task-specific operationalization. The present release is a reproducible measurement framework, not an empirical ranking of agents.
+\section{Conclusion}
+Reliable enterprise agents should be evaluated on more than whether they eventually reach a goal. The framework makes five operational dimensions explicit and supplies transparent software for testing and extending the proposal.
+\bibliographystyle{plain}\bibliography{references}\end{document}
