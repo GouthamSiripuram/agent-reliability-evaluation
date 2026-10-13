@@ -1,18 +1,20 @@
 {
   "artifact": "agent_reliability",
-  "pages": 6,
-  "citations": 10,
+  "pages": 9,
+  "citations": 11,
   "source_files": [
     "main.tex",
     "references.bib",
     "main.bbl",
     "tables/summary.tex",
-    "figures/sensitivity.pdf"
+    "figures/sensitivity.pdf",
+    "tables/empirical_clean.tex",
+    "tables/empirical_faults.tex"
   ],
   "clean_zip_compile": true,
   "unresolved_references": false,
   "latex_warnings": false,
-  "zip_sha256": "b7e8440259ec910a723d531d4235b481d78ccd39d3d7be3fcf09114c9e16f963",
-  "pdf_sha256": "93b2a8d8439f026d2ae70a277fde0ba5bb4fc15e67d0774815bdc448d94beadd",
-  "visual_inspection": "passed: all six rendered pages inspected"
+  "zip_sha256": "13260d94bccbb0c106b2b5691d1fd052461fe9fd5f2672ac372b2a4bc496dcd8",
+  "pdf_sha256": "0276bfb862d49a50ef9b7e529c313db7551e07ad51a166f492b90bb0dfc6bfca",
+  "visual_inspection": "passed: all 9 rendered pages inspected"
 }

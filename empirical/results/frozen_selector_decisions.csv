@@ -1,0 +1,13 @@
+task_id,decomposability,specialization_need,verification_value,coordination_burden,error_propagation_risk,resource_sensitivity,selected
+gsm8k-test-0032,0.5,0.0,1.0,0.25,0.16666666666666666,0.5,planner_executor_verifier
+gsm8k-test-0055,0.75,0.0,1.0,0.25,0.25,0.5,planner_executor_verifier
+gsm8k-test-0301,0.5,0.0,1.0,0.25,0.4166666666666667,0.5,planner_executor_verifier
+gsm8k-test-0413,0.5,0.0,1.0,0.25,0.25,0.5,planner_executor_verifier
+gsm8k-test-0438,1.0,0.0,1.0,0.25,0.4166666666666667,0.5,planner_executor_verifier
+gsm8k-test-0441,0.5,0.0,1.0,0.25,0.4166666666666667,0.5,planner_executor_verifier
+gsm8k-test-0467,0.5,0.0,1.0,0.25,0.08333333333333333,0.5,planner_executor_verifier
+gsm8k-test-0605,0.5,0.0,1.0,0.25,0.4166666666666667,0.5,planner_executor_verifier
+gsm8k-test-0618,1.0,0.0,1.0,0.25,0.16666666666666666,0.5,hierarchical_multi_agent
+gsm8k-test-0954,0.25,0.0,1.0,0.25,0.25,0.5,planner_executor_verifier
+gsm8k-test-1023,0.25,0.0,1.0,0.25,0.25,0.5,planner_executor_verifier
+gsm8k-test-1255,1.0,0.0,1.0,0.25,0.3333333333333333,0.5,planner_executor_verifier

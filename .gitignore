@@ -7,3 +7,13 @@ __pycache__/
 *.out
 *.blg
 *.xdv
+
+# Local empirical assets and new replication runs
+empirical/local_assets.json
+empirical/runs/
+empirical/smoke/
+.hf-cache/
+.hf-models/
+.empirical-venv/
+
+LOCAL_APPDATA_FONTCONFIG_CACHE/

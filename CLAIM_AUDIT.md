@@ -1,14 +1,14 @@
-# Scientific claim audit (v0.3.0)
+# Scientific claim audit (v0.4.0)
 
-| Claim | Classification | Treatment |
+| Claim | Classification | Evidence and limits |
 |---|---|---|
-| Existing agent methods and benchmark scope | SUPPORTED BY CITATION | Narrow descriptions tied to verified primary sources; see BIBLIOGRAPHY_AUDIT.md. |
-| Formula definitions, weights, feature choices | PROPOSED METHODOLOGY | Declared conventions; not estimated parameters. |
-| Utility of the chosen dimensions/features for deployment | PROPOSED HYPOTHESIS | Requires real-agent validation; not established here. |
-| Table and figure values | SUPPORTED BY CURRENT RESULTS | Deterministic synthetic/analytical calculations from reproduction script; not LLM experiments. |
-| Input validation and selected edge cases | SUPPORTED BY CURRENT RESULTS | Code inspection and regression tests; no general proof of correctness. |
-| Real model superiority, operational guarantees, calibrated prediction | UNSUPPORTED | Not claimed; deferred to a specified empirical protocol. |
-| First multidimensional reliability framework or first overhead-aware selector | UNSUPPORTED | No priority claim; related work explicitly acknowledged. |
-| Independent human peer review or arXiv publication | UNSUPPORTED | Not claimed. Internal review identified as AI-assisted. |
+| Background agent methods, benchmarks and GSM8K provenance | SUPPORTED BY CITATION | Verified primary records; see BIBLIOGRAPHY_AUDIT.md. |
+| Scoring formulas, weights, feature proxies and token utility | PROPOSED METHODOLOGY | Explicit conventions, not measured natural constants or fitted coefficients. |
+| Original synthetic tables and sensitivity plots | SUPPORTED BY CURRENT RESULTS | Deterministic calculations on synthetic inputs; remain labeled synthetic. |
+| 720 local model episodes and measured success, tools, tokens and latency | SUPPORTED BY CURRENT RESULTS | Append-only traces, exact-key integrity check, deterministic scoring, task-cluster intervals. |
+| Fixed proxy selector performance on this sample | SUPPORTED BY CURRENT RESULTS | Frozen policy, shared clean episodes, four constant-policy baselines; uncertain finite-repeat oracle. |
+| Full validity of reliability dimensions or architecture descriptors | PROPOSED HYPOTHESIS | The small partial-observation study does not establish construct validity. |
+| Enterprise performance, general security, optimal coefficients, broad multi-agent superiority | UNSUPPORTED | Not claimed. Only 12 public math tasks and two small models were tested. |
+| Independent human peer review, independent replication, arXiv publication, project DOI | UNSUPPORTED | Not claimed. Both papers use the same shared study. |
 
-Historical validation reports are retained unchanged and describe their historical scope. They are not evidence of completed empirical research. Author must review the manuscript before submission.
+Failures and zero-exposure cases remain visible. No synthetic observation was converted into a measured result. Historical reports describe their original scope and are preserved unchanged.

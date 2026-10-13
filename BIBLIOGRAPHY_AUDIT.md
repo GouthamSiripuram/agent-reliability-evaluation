@@ -65,3 +65,13 @@ Supported use: Prompt-injection evaluation in tool-using agents; motivates separ
 ## Original bibliography disposition
 
 All eight original works exist. Expanded abbreviated author lists, supplied canonical links, and corrected the IJCAI survey entry type where retained. Original entries not cited in this manuscript were omitted from its submission bibliography, not treated as nonexistent. Added only directly relevant sources. Version-dependent author lists are documented above; metadata is not combined across editions. Claims of metric novelty, empirical calibration or architecture superiority are not supported by these citations and are not made. This is a targeted citation audit, not a systematic literature review.
+
+
+## v0.4.0 empirical extension (checked 2026-10-13)
+
+- `cobbe2021gsm8k`: [Training Verifiers to Solve Math Word Problems](https://arxiv.org/abs/2110.14168v2), Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, John Schulman (2021). Title, complete authorship and versioned identifier verified against the primary arXiv record. Used only for GSM8K provenance and task type; upstream model results are not substituted for our measurements. No unverified venue supplied.
+- Official [Qwen3-0.6B card](https://huggingface.co/Qwen/Qwen3-0.6B) verifies checkpoint identity, Apache-2.0 license, and non-thinking configuration. Official [SmolLM2-360M-Instruct card](https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct) verifies its identity and Apache-2.0 declaration. Cited as source footnotes, not invented scholarly papers. Exact revisions are in ASSET_MANIFEST.json.
+- Versioned [smolagents model documentation](https://huggingface.co/docs/smolagents/v1.21.2/en/reference/models) supports the local model-adapter interface. The actual adapter and agent behavior were checked in installed source and development tests.
+- [Dataset card](https://huggingface.co/datasets/openai/gsm8k) and [original MIT notice](https://github.com/openai/grade-school-math/blob/master/LICENSE) support provenance/licensing. The original notice is retained in empirical/THIRD_PARTY_NOTICES.md.
+
+The earlier bibliography audit remains applicable to unchanged background claims. No new project DOI, arXiv identifier, peer-review status or citation count is claimed. This remains a targeted reference audit, not a systematic review.

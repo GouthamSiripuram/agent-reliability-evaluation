@@ -1,5 +1,13 @@
 \begin{thebibliography}{10}
 
+\bibitem{cobbe2021gsm8k}
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz
+  Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano,
+  Christopher Hesse, and John Schulman.
+\newblock {Training Verifiers to Solve Math Word Problems}.
+\newblock arXiv:2110.14168v2, 2021.
+\newblock \url{https://arxiv.org/abs/2110.14168v2}.
+
 \bibitem{debenedetti2024agentdojo}
 Edoardo Debenedetti, Jie Zhang, Mislav Balunovic, Luca Beurer-Kellner, Marc
   Fischer, and Florian Tram\`er.

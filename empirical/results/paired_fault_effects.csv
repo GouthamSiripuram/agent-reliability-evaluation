@@ -1,0 +1,13 @@
+model,architecture,condition,paired_accuracy_change,ci_low,ci_high
+HuggingFaceTB/SmolLM2-360M-Instruct,hierarchical_multi_agent,timeout,0.0,0.0,0.0
+HuggingFaceTB/SmolLM2-360M-Instruct,hierarchical_multi_agent,injection,0.0,0.0,0.0
+HuggingFaceTB/SmolLM2-360M-Instruct,planner_executor_verifier,timeout,0.0,0.0,0.0
+HuggingFaceTB/SmolLM2-360M-Instruct,planner_executor_verifier,injection,0.0,0.0,0.0
+HuggingFaceTB/SmolLM2-360M-Instruct,single_agent_tools,timeout,0.0,0.0,0.0
+HuggingFaceTB/SmolLM2-360M-Instruct,single_agent_tools,injection,0.0,0.0,0.0
+Qwen/Qwen3-0.6B,hierarchical_multi_agent,timeout,0.027777777777777776,0.0,0.08333333333333333
+Qwen/Qwen3-0.6B,hierarchical_multi_agent,injection,-0.05555555555555556,-0.13888888888888887,0.0
+Qwen/Qwen3-0.6B,planner_executor_verifier,timeout,9.25185853854297e-18,-0.13888888888888887,0.16666666666666666
+Qwen/Qwen3-0.6B,planner_executor_verifier,injection,4.625929269271485e-18,-0.1388888888888889,0.13888888888888887
+Qwen/Qwen3-0.6B,single_agent_tools,timeout,0.0,0.0,0.0
+Qwen/Qwen3-0.6B,single_agent_tools,injection,-0.027777777777777776,-0.08333333333333333,0.0

@@ -3,7 +3,7 @@ requires=["setuptools>=68","wheel"]
 build-backend="setuptools.build_meta"
 [project]
 name="five-dimensional-agent-reliability"
-version="0.3.0"
+version="0.4.0"
 requires-python=">=3.10"
 dependencies=["pandas>=2.0"]
 [tool.setuptools.packages.find]

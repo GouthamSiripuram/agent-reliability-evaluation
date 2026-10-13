@@ -1,12 +1,12 @@
 cff-version: 1.2.0
 message: "If you use this framework, dataset, code, or notebook, please cite it."
-title: "Five-Dimensional Reliability Evaluation for Enterprise AI Agents: A Reproducible Framework and Synthetic Stress-Test Suite"
+title: "Five-Dimensional Reliability Evaluation for AI Agents: A Reproducible Framework, Synthetic Demonstrations, and a Local Model Case Study"
 type: software
 authors:
   - family-names: Siripuram
     given-names: Goutham
-date-released: 2026-10-12
-version: 0.3.0
+date-released: 2026-10-13
+version: 0.4.0
 license: MIT
 repository-code: "https://github.com/GouthamSiripuram/agent-reliability-evaluation"
-abstract: "Reference implementation and synthetic stress-test suite for multidimensional reliability evaluation of agentic AI systems."
+abstract: "Proposed methodology with preserved synthetic demonstrations and a separate, limited local-agent case study; no calibrated deployment claim."

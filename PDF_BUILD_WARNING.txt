@@ -1,1 +1,1 @@
-Historical notice: the v0.2.0 PDF had unresolved citations. The original warning and draft are preserved in validation/v0.2.0/. The current paper/main.pdf is rebuilt for v0.3.0; see VALIDATION.md for current checks.
+Historical notice: the v0.2.0 PDF had unresolved citations. The original warning and draft are preserved in validation/v0.2.0/. The current paper/main.pdf is rebuilt for v0.4.0; see VALIDATION.md for current checks.

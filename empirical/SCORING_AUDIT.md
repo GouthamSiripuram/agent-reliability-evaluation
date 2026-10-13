@@ -1,0 +1,7 @@
+# Post-run scoring adjudication
+
+The frozen primary parser and all original records remain unchanged. The integrity audit flagged one marked arithmetic expression: Qwen/Qwen3-0.6B, GSM8K test row 1255, hierarchical_multi_agent, clean, seed 91. The final output was `#### NUMBER` followed by `2 + 12 = 14`.
+
+The frozen parser extracts the leading 2; this is a known numeric-prefix limitation, not a valid interpretation of an arithmetic expression as a bare final number. The dataset's gold answer is 12. The primary outcome is therefore already incorrect. Rejecting the ambiguous format would also be incorrect; interpreting the written expression's result as 14 would still be incorrect. No accuracy, success-unanimity, fault-exposure, sentinel-adoption, utility or regret result changes. No model run was discarded or rerun, and no post-hoc primary scoring adjustment was made.
+
+This adjudication resolves the flagged case for this released dataset; it does not establish that the parser is robust to every future answer format. The flag remains in INTEGRITY_AUDIT.json for transparency. Review of recorded Qwen tool-agent failures also confirmed examples of wrong task calculations and premature final answers after intermediate calculations; the calculator's recorded outputs were independently recomputed for every valid tool output. Framework-caught JSON-format failures and exhausted role budgets remain ordinary agent failures under the frozen protocol.

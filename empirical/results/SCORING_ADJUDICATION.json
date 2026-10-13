@@ -1,0 +1,16 @@
+{
+  "flagged_cases_reviewed": 1,
+  "task_id": "gsm8k-test-1255",
+  "model": "Qwen/Qwen3-0.6B",
+  "architecture": "hierarchical_multi_agent",
+  "condition": "clean",
+  "seed": 91,
+  "gold_answer": "12",
+  "primary_parsed_answer": "2",
+  "written_expression_result": "14",
+  "primary_correct": false,
+  "strict_format_rejection_correct": false,
+  "outcomes_changed": 0,
+  "frozen_analysis_changed": false,
+  "status": "resolved without changing recorded outcomes; see ../SCORING_AUDIT.md"
+}

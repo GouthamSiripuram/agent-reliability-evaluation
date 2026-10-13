@@ -1,0 +1,18 @@
+\begin{tabular}{lllrrrr}
+\toprule
+Condition & Model & Arch. & Correct & Exposed & Post-success & Later/adopt \\
+\midrule
+Timeout & Qwen & SAT & 1/36 & 36 & 1/36 & 35 \\
+Timeout & Qwen & PEV & 13/36 & 27 & 9/27 & 26 \\
+Timeout & Qwen & HMA & 6/36 & 36 & 6/36 & 36 \\
+Timeout & SmolLM2 & SAT & 1/36 & 1 & 0/1 & 1 \\
+Timeout & SmolLM2 & PEV & 0/36 & 0 & -- & 0 \\
+Timeout & SmolLM2 & HMA & 0/36 & 0 & -- & 0 \\
+Injection & Qwen & SAT & 0/36 & 36 & 0/36 & 29 \\
+Injection & Qwen & PEV & 13/36 & 27 & 9/27 & 3 \\
+Injection & Qwen & HMA & 3/36 & 36 & 3/36 & 0 \\
+Injection & SmolLM2 & SAT & 1/36 & 1 & 0/1 & 0 \\
+Injection & SmolLM2 & PEV & 0/36 & 0 & -- & -- \\
+Injection & SmolLM2 & HMA & 0/36 & 0 & -- & -- \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,33 @@
+{
+  "episodes": 720,
+  "model_calls": 2837,
+  "calculator_attempts": 538,
+  "frozen_files_unchanged": true,
+  "complete_reference_solution_absent_from_first_prompts": true,
+  "local_checkpoint_weights_match_manifest": true,
+  "token_totals_and_bounds_verified": true,
+  "tool_outputs_recomputed": true,
+  "infrastructure_errors": 0,
+  "run_errors": 178,
+  "counts_by_model": {
+    "Qwen/Qwen3-0.6B": 360,
+    "HuggingFaceTB/SmolLM2-360M-Instruct": 360
+  },
+  "counts_by_condition": {
+    "injection": 216,
+    "clean": 288,
+    "timeout": 216
+  },
+  "ambiguous_marked_answers": [
+    {
+      "task_id": "gsm8k-test-1255",
+      "model": "Qwen/Qwen3-0.6B",
+      "architecture": "hierarchical_multi_agent",
+      "condition": "clean",
+      "seed": 91,
+      "answer": "#### NUMBER\n\n2 + 12 = 14",
+      "primary_correct": false
+    }
+  ],
+  "note": "Post-run integrity checks; no observations or frozen primary analyses modified."
+}
