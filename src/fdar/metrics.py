@@ -23,7 +23,7 @@ def _weights(weights: Sequence[float], n: int) -> list[float]:
     if any(w < 0 for w in vals):
         raise ValueError("weights must be non-negative")
     total = sum(vals)
-    if total <= 0:
+    if not math.isfinite(total) or total <= 0:
         raise ValueError("weights must sum to a positive value")
     return [w / total for w in vals]
 
@@ -90,7 +90,7 @@ def evidence_observability(trace_completeness: float, attribution: float,
     return sum(w*v for w, v in zip(ws, vals))
 
 def consistency_from_binary_outcomes(outcomes) -> float:
-    vals = [int(v) for v in outcomes]
+    vals = [_finite(v, "outcome") for v in outcomes]
     if len(vals) < 2:
         raise ValueError("at least two repeated outcomes are required")
     if any(v not in (0, 1) for v in vals):
@@ -101,6 +101,8 @@ def consistency_from_binary_outcomes(outcomes) -> float:
 
 def composite_score(dimensions: Mapping[str, float], weights: Mapping[str, float] | None = None,
                     floor: float = 1e-12, missing_policy: str = "renormalize") -> float:
+    if missing_policy not in ("renormalize", "error"):
+        raise ValueError("missing_policy must be 'renormalize' or 'error'")
     floor = _finite(floor, "floor")
     if not 0 < floor <= 1:
         raise ValueError("floor must be in (0,1]")
@@ -129,7 +131,7 @@ def composite_score(dimensions: Mapping[str, float], weights: Mapping[str, float
     if not observed:
         raise ValueError("no observed dimensions")
     total = sum(float(weights[k]) for k, _ in observed)
-    if total <= 0:
+    if not math.isfinite(total) or total <= 0:
         raise ValueError("observed weights must sum to a positive value")
     log_score = sum((float(weights[k])/total) * math.log(max(floor, v)) for k, v in observed)
     return math.exp(log_score)

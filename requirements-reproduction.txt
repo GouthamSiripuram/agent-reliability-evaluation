@@ -1,0 +1,6 @@
+pandas==3.0.1
+numpy==2.5.4
+pytest==9.1.1
+nbformat==5.11.1
+IPython==9.17.1
+matplotlib==3.11.2

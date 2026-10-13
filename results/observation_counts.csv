@@ -1,0 +1,7 @@
+architecture,observed_dimension_count,records
+direct_agent,4,40
+direct_agent,5,200
+guarded_recovery_agent,4,40
+guarded_recovery_agent,5,200
+planner_executor,4,40
+planner_executor,5,200

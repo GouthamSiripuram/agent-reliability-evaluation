@@ -1,0 +1,19 @@
+{
+  "python": "3.12.14",
+  "os": "Windows-11-10.0.26200-SP0",
+  "tests": "................                                                         [100%]\n16 passed in 2.28s",
+  "paper_reproduction": "task_fidelity  recovery    safety  efficiency  observability  reliability_score\narchitecture                                                                                           \ndirect_agent                 0.796800     0.495  0.897360    1.000000       0.550392           0.412613\nguarded_recovery_agent       0.862327     0.820  0.958842    0.988725       0.902152           0.772183\nplanner_executor             0.837621     0.610  0.908087    1.000000       0.720435           0.542424\narchitecture            observed_dimension_count\ndirect_agent            4                            40\n                        5                           200\nguarded_recovery_agent  4                            40\n                        5                           200\nplanner_executor        4                            40\n                        5                           200",
+  "notebook_code_cells": 2,
+  "notebook_method": "in-process IPython; no separate Jupyter kernel",
+  "generator_records_equal": true,
+  "citation_cff_schema_valid": true,
+  "versions": {
+    "pandas": "3.0.1",
+    "numpy": "2.5.4",
+    "pytest": "9.1.1",
+    "nbformat": "5.11.1",
+    "IPython": "9.17.1",
+    "matplotlib": "3.11.2",
+    "cffconvert": "2.0.0"
+  }
+}

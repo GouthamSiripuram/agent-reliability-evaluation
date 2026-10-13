@@ -1,10 +1,8 @@
-"""Deterministically regenerate the synthetic demonstration data.
+"""Deterministically regenerate the synthetic task catalog only.
 IMPORTANT: this generator produces illustrative synthetic data, not measured LLM results.
 """
-import json, random
+import json
 from pathlib import Path
-
-SEED = 260907
 
 def main(out_dir="data"):
     out = Path(out_dir); out.mkdir(parents=True, exist_ok=True)
@@ -35,7 +33,7 @@ def main(out_dir="data"):
     with (out/"task_catalog.jsonl").open("w") as f:
         for r in catalog: f.write(json.dumps(r)+"\n")
     # Synthetic run generation intentionally omitted from empirical claims.
-    print(f"Wrote {len(catalog)} task specifications using seed {SEED}.")
+    print(f"Wrote {len(catalog)} task specifications (no random sampling).")
 
 if __name__ == "__main__":
     main()

@@ -53,4 +53,8 @@ def evaluate_runs(df: pd.DataFrame) -> pd.DataFrame:
         "efficiency": r.efficiency,
         "observability": r.observability
     }, missing_policy="renormalize"), axis=1)
+    # A four-component score must not be confused with a fully observed score.
+    out["observed_dimension_count"] = out[[
+        "task_fidelity", "recovery", "safety", "efficiency", "observability"
+    ]].notna().sum(axis=1)
     return out

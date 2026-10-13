@@ -1,0 +1,92 @@
+\begin{thebibliography}{10}
+
+\bibitem{debenedetti2024agentdojo}
+Edoardo Debenedetti, Jie Zhang, Mislav Balunovic, Luca Beurer-Kellner, Marc
+  Fischer, and Florian Tram\`er.
+\newblock {AgentDojo: A Dynamic Environment to Evaluate Prompt Injection
+  Attacks and Defenses for LLM Agents}.
+\newblock In {\em Advances in Neural Information Processing Systems, volume
+  37}, 2024.
+\newblock
+  \url{https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html}.
+
+\bibitem{drouin2024workarena}
+Alexandre Drouin, Maxime Gasse, Massimo Caccia, Issam~H. Laradji, Manuel
+  Del~Verme, Tom Marty, David Vazquez, Nicolas Chapados, and Alexandre Lacoste.
+\newblock {WorkArena: How Capable Are Web Agents at Solving Common Knowledge
+  Work Tasks?}
+\newblock In {\em Proceedings of the 41st International Conference on Machine
+  Learning, volume 235, pages 11642--11662}, 2024.
+\newblock \url{https://proceedings.mlr.press/v235/drouin24a.html}.
+
+\bibitem{liu2024agentbench}
+Xiao Liu, Hao Yu, Hanchen Zhang, Yifan Xu, Xuanyu Lei, Hanyu Lai, Yu~Gu,
+  Hangliang Ding, Kaiwen Men, Kejuan Yang, Shudan Zhang, Xiang Deng, Aohan
+  Zeng, Zhengxiao Du, Chenhui Zhang, Sheng Shen, Tianjun Zhang, Yu~Su, Huan
+  Sun, Minlie Huang, Yuxiao Dong, and Jie Tang.
+\newblock {AgentBench: Evaluating LLMs as Agents}.
+\newblock In {\em International Conference on Learning Representations}, 2024.
+\newblock \url{https://arxiv.org/abs/2308.03688}.
+
+\bibitem{mialon2024gaia}
+Gr\'egoire Mialon, Cl\'ementine Fourrier, Thomas Wolf, Yann LeCun, and Thomas
+  Scialom.
+\newblock {GAIA: A Benchmark for General AI Assistants}.
+\newblock In {\em International Conference on Learning Representations}, 2024.
+\newblock
+  \url{https://proceedings.iclr.cc/paper_files/paper/2024/hash/25ae35b5b1738d80f1f03a8713e405ec-Abstract-Conference.html}.
+
+\bibitem{rabanser2026reliability}
+Stephan Rabanser, Sayash Kapoor, Peter Kirgis, Kangheng Liu, Saiteja Utpala,
+  and Arvind Narayanan.
+\newblock {Towards a Science of AI Agent Reliability}.
+\newblock arXiv:2602.16666v3, 2026.
+\newblock \url{https://arxiv.org/abs/2602.16666v3}.
+
+\bibitem{schick2023toolformer}
+Timo Schick, Jane Dwivedi-Yu, Roberto Dess\`i, Roberta Raileanu, Maria Lomeli,
+  Eric Hambro, Luke Zettlemoyer, Nicola Cancedda, and Thomas Scialom.
+\newblock {Toolformer: Language Models Can Teach Themselves to Use Tools}.
+\newblock In {\em Advances in Neural Information Processing Systems, volume
+  36}, 2023.
+\newblock
+  \url{https://proceedings.neurips.cc/paper_files/paper/2023/hash/d842425e4bf79ba039352da0f658a906-Abstract-Conference.html}.
+
+\bibitem{shinn2023reflexion}
+Noah Shinn, Federico Cassano, Ashwin Gopinath, Karthik Narasimhan, and Shunyu
+  Yao.
+\newblock {Reflexion: Language Agents with Verbal Reinforcement Learning}.
+\newblock In {\em Advances in Neural Information Processing Systems, volume
+  36}, 2023.
+\newblock
+  \url{https://proceedings.neurips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html}.
+
+\bibitem{xie2024osworld}
+Tianbao Xie, Danyang Zhang, Jixuan Chen, Xiaochuan Li, Siheng Zhao, Ruisheng
+  Cao, Jing~Hua Toh, Zhoujun Cheng, Dongchan Shin, Fangyu Lei, Yitao Liu,
+  Yiheng Xu, Shuyan Zhou, Silvio Savarese, Caiming Xiong, Victor Zhong, and Tao
+  Yu.
+\newblock {OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real
+  Computer Environments}.
+\newblock In {\em Advances in Neural Information Processing Systems, volume
+  37}, 2024.
+\newblock
+  \url{https://proceedings.neurips.cc/paper_files/paper/2024/hash/5d413e48f84dc61244b6be550f1cd8f5-Abstract-Datasets_and_Benchmarks_Track.html}.
+
+\bibitem{yao2023react}
+Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan,
+  and Yuan Cao.
+\newblock {ReAct: Synergizing Reasoning and Acting in Language Models}.
+\newblock In {\em International Conference on Learning Representations}, 2023.
+\newblock \url{https://arxiv.org/abs/2210.03629}.
+
+\bibitem{zhou2024webarena}
+Shuyan Zhou, Frank~F. Xu, Hao Zhu, Xuhui Zhou, Robert Lo, Abishek Sridhar,
+  Xianyi Cheng, Tianyue Ou, Yonatan Bisk, Daniel Fried, Uri Alon, and Graham
+  Neubig.
+\newblock {WebArena: A Realistic Web Environment for Building Autonomous
+  Agents}.
+\newblock In {\em International Conference on Learning Representations}, 2024.
+\newblock \url{https://arxiv.org/abs/2307.13854}.
+
+\end{thebibliography}
