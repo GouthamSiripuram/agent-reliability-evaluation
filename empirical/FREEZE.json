@@ -1,0 +1,32 @@
+{
+  "frozen_at_utc": "2026-10-13T16:27:33.160388+00:00",
+  "status": "local protocol freeze before held-out evaluation; not public preregistration",
+  "planned_episodes": 720,
+  "development": [
+    {
+      "model_index": 0,
+      "episodes": 20,
+      "trace_sha256": "e6077aaa9a45600072dd00a1181f63db7e747e570db3e6c485894353307d59b9"
+    },
+    {
+      "model_index": 1,
+      "episodes": 20,
+      "trace_sha256": "73f683fb164d7cdb266194474801f42c316e9615f19d32cf78279fc64ef5a0a4"
+    }
+  ],
+  "files": {
+    "PROTOCOL.md": "d4a956c9cf23a3222b2dd3a8d71f709b3b09a4971023604b6e6108619d213d68",
+    "run_study.py": "a5630817a01227cb99f9995b5c840fd55900f5dd55b0640f62c6045a7260e9e0",
+    "measurement.py": "f5522b22e95b1c48acdaeec6de7ca630306356513086d8daf21baaba131adf25",
+    "selector_policy.py": "b78a1a88d6ca1c1c7865b14435c5d9b901a6a993b223fe3d2e674e7cba2a0708",
+    "analyze.py": "ce877795a6b824d465fa7adabef87a5e4b7436cdd7cc61a3cde2d0e4f0c3c0d5",
+    "download_assets.py": "8cd961900b3b70278a3b37c2607d43279a999faef1544866fc72f05661dca899",
+    "freeze_study.py": "87d91373d2c9192f5bb5eebba50835934f39f97c904b7736e098f01b7645e72e",
+    "tasks.json": "d681e1f30dbd4cdbdf06574b6a6e93eb6e0d496db151c993118000906a01b4f2",
+    "ASSET_MANIFEST.json": "916c0633a20bea7b72fdfb0e6fced77664190b60806ba4da0ae3784c0b41cc32",
+    "requirements-lock.txt": "66546f0d9bca6366f01207a419728394751d4022073c6c2dd2e5e3622f84e70c",
+    "test_measurement.py": "08c4c94f57012cd566aabc3290a36b794654a2c32b74ccd2e7ca503592129871",
+    "test_analysis.py": "b39b6c0eaf56cbe3c88827d6e794e37c8df34b29a56a2d3dd962a46baa17324e",
+    "test_harness.py": "6058ea6e822e9fe9e049769bb70163ec0e13211356bd0cadcbc398d1f9b0ce2f"
+  }
+}

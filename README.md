@@ -55,3 +55,5 @@ Use [CITATION.cff](CITATION.cff) or cite: Goutham Siripuram (2026), *Five-Dimens
 Generative-AI tools assisted with drafting, editing, code review, and internal technical validation. Goutham Siripuram is the sole human author and is responsible for the claims and artifacts. The seven-role AI-assisted internal review is **not independent human peer review**.
 
 The original [internal review](SEVEN_ROLE_INTERNAL_REVIEW.md) remains unchanged. Earlier build warnings, draft sources/PDF, and validation records are preserved in `validation/v0.2.0/`; their historical status does not describe the rebuilt v0.3.0 paper. Real-agent studies, calibration, and independent evaluation remain future work.
+
+A local empirical study is in progress. Its [frozen protocol and implementation](empirical/README.md) are available; planned episodes are not yet completed results.
