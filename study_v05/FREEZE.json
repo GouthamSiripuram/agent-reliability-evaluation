@@ -1,0 +1,27 @@
+{
+  "timestamp_utc": "2026-10-14T04:12:49.456833+00:00",
+  "status": "Local protocol/code freeze before evaluation; not independent public preregistration",
+  "files": {
+    "analysis.py": "73e20545ed33d31121d9cfe690977f8ee83a7a3d7eda118fbe1f2c1bd6755ace",
+    "arithmetic.py": "f5522b22e95b1c48acdaeec6de7ca630306356513086d8daf21baaba131adf25",
+    "audit_records.py": "a43deba13bae24a02e1f126fb02811a5ce2bd366de333acd950f6ca78befd216",
+    "check_larger_budget.py": "2d570bf708d8166d121287e7198aae35d9a5e2c17ec03bc34a12b1db9f7149f4",
+    "download_model.py": "9e05602bdf0feaddcfc43eef1533111829250f568a5dc8764bf8e4b8e0b1e331",
+    "freeze.py": "ce637daaa828392dfa6fec6088e65f4cd6b383379f659941d73ae0645b45efd1",
+    "local_model.py": "49935799365e8a65d1de93d7e2c387cf1987ad891875331792e65f2639f951b2",
+    "measurement.py": "966f910aebfd80aafcbf2170f0943654eecab90e76f3b737c38045e7579df31c",
+    "prepare_tasks.py": "49d35afb0369eb018a73d02897546425003bc76a5cf6fefb60acb638ab7f25eb",
+    "run_studies.py": "2fbc1231759daae4c115fe270836b6d14d893e0600fd366e7adf0c113e41a3b7",
+    "test_analysis.py": "d7371c5fd63bf0eadf7dca0d8cce22b722b9da6d621114e4cad4e9a601cc1cd2",
+    "test_research.py": "4b8d0a3f82bd8ed3f73b532570d748c0ad32e6f1ea196a9bdb23da41f2221329",
+    "workflows.py": "cbd6dbf6f9b4210814a564a485e2e75033e9cf624557b3f2a576072535d07fca",
+    "tasks.json": "c43793415377f67997d9f76152ded01b9c9f44a7575709d243829d449189bc43",
+    "MODEL_MANIFEST.json": "6b5ab5d0d19780304cb1f15c1e30096e41f8a3e9bf033cdd84ba750146d4b5f6",
+    "DATA_PROVENANCE.json": "545a9b770130e9e2f7a3f69034471ff6a57df6a0f62d670887d8e67f079e04bb",
+    "PROTOCOL_RELIABILITY.md": "709a2cd2511b876f0f37c82888004f44854a64788da14c6ad67803edfd470ec5",
+    "PROTOCOL_ARCHITECTURE.md": "05f973ada932a9daff65d4dd886067f2d3161f23ae9bde0b2adbad4f748de311",
+    "requirements-lock.txt": "66546f0d9bca6366f01207a419728394751d4022073c6c2dd2e5e3622f84e70c",
+    "DEVELOPMENT_REVIEW.json": "b59c2da5b56fb788d65e5b9ef7cbd9f63af878aefda56e0bc4790a76c4572b3f",
+    "DEVELOPMENT_LOG.md": "9d9c66584f1684d15a43bed34dbcf8ee6415dbf76a3edf94b244607abe039fc9"
+  }
+}

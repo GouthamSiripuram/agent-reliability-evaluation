@@ -1,0 +1,23 @@
+{
+  "selection_seed": 2026101401,
+  "gsm8k_revision": "740312add88f781978c0658806c59bc2815b9866",
+  "svamp_revision": "78e727689e1c1bebfc4be39c446898e8e10b0518",
+  "svamp_url": "https://github.com/arkilpatel/SVAMP/tree/78e727689e1c1bebfc4be39c446898e8e10b0518",
+  "sources": {
+    "test-00000-of-00001.parquet": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+    "train-00000-of-00001.parquet": "ea82612ea9582142387730c793eb67d3b12849002bc0b7fa6f8efafa7351419d",
+    "SVAMP.json": "5be77703a6d891ae476d7c082787ad361392aa02453b132516cdd5f4e7934e3e",
+    "SVAMP_LICENSE": "07ce3a34de7a865345634f9278bc26ddcacc2d0defd348c28e3f4603448b9ba4"
+  },
+  "cohorts": {
+    "architecture_test": 64,
+    "architecture_train": 64,
+    "architecture_transfer": 64,
+    "development": 8,
+    "reliability_test": 64
+  },
+  "pilot_questions_excluded": 14,
+  "all_question_texts_unique": true,
+  "svamp_selection": "one example per normalized numeric-masked body, then 64 sampled groups",
+  "public_benchmark_contamination_possible": true
+}
