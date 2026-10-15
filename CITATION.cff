@@ -1,12 +1,12 @@
 cff-version: 1.2.0
-message: "If you use this framework, dataset, code, or notebook, please cite it."
-title: "Five-Dimensional Reliability Evaluation for AI Agents: A Reproducible Framework, Synthetic Demonstrations, and a Local Model Case Study"
+message: "Please cite this research software and its accompanying preprint."
+title: "Reporting Agent Reliability under Partial Observation: Exposure-Matched Fault Tests and Score Bounds"
 type: software
 authors:
   - family-names: Siripuram
     given-names: Goutham
-date-released: 2026-10-13
-version: 0.4.0
+version: 0.5.0
+date-released: 2026-10-15
 license: MIT
 repository-code: "https://github.com/GouthamSiripuram/agent-reliability-evaluation"
-abstract: "Proposed methodology with preserved synthetic demonstrations and a separate, limited local-agent case study; no calibrated deployment claim."
+abstract: "Bounded local empirical evaluation; historical synthetic demonstrations preserved separately. No arXiv or journal acceptance claimed."

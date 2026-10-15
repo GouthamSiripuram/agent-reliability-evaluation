@@ -1,0 +1,54 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Cobbe et~al.(2021)Cobbe, Kosaraju, Bavarian, Chen, Jun, Kaiser,
+  Plappert, Tworek, Hilton, Nakano, Hesse, and Schulman]{cobbe2021gsm8k}
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz
+  Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano,
+  Christopher Hesse, and John Schulman.
+\newblock {Training Verifiers to Solve Math Word Problems}.
+\newblock arXiv:2110.14168v2, 2021.
+\newblock \url{https://arxiv.org/abs/2110.14168v2}.
+
+\bibitem[Debenedetti et~al.(2024)Debenedetti, Zhang, Balunovic, Beurer-Kellner,
+  Fischer, and Tram\`er]{debenedetti2024agentdojo}
+Edoardo Debenedetti, Jie Zhang, Mislav Balunovic, Luca Beurer-Kellner, Marc
+  Fischer, and Florian Tram\`er.
+\newblock {AgentDojo: A Dynamic Environment to Evaluate Prompt Injection
+  Attacks and Defenses for LLM Agents}.
+\newblock In \emph{Advances in Neural Information Processing Systems, volume
+  37}, 2024.
+\newblock
+  \url{https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html}.
+
+\bibitem[He et~al.(2026)He, Dong, Guo, Liu, and Xu]{he2026sscbench}
+Xincheng He, Wanli Dong, Zhaoqiang Guo, Yan Liu, and Lei Xu.
+\newblock {SSCBench}: Evaluating the evidential validity of fault-injection
+  tests for tool-using {LLM} agents, 2026.
+\newblock URL \url{https://arxiv.org/abs/2610.11514v1}.
+\newblock Version 1.
+
+\bibitem[Liu et~al.(2024)Liu, Yu, Zhang, Xu, Lei, Lai, Gu, Ding, Men, Yang,
+  Zhang, Deng, Zeng, Du, Zhang, Shen, Zhang, Su, Sun, Huang, Dong, and
+  Tang]{liu2024agentbench}
+Xiao Liu, Hao Yu, Hanchen Zhang, Yifan Xu, Xuanyu Lei, Hanyu Lai, Yu~Gu,
+  Hangliang Ding, Kaiwen Men, Kejuan Yang, Shudan Zhang, Xiang Deng, Aohan
+  Zeng, Zhengxiao Du, Chenhui Zhang, Sheng Shen, Tianjun Zhang, Yu~Su, Huan
+  Sun, Minlie Huang, Yuxiao Dong, and Jie Tang.
+\newblock {AgentBench: Evaluating LLMs as Agents}.
+\newblock In \emph{International Conference on Learning Representations}, 2024.
+\newblock \url{https://arxiv.org/abs/2308.03688}.
+
+\bibitem[Yao et~al.(2023)Yao, Zhao, Yu, Du, Shafran, Narasimhan, and
+  Cao]{yao2023react}
+Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan,
+  and Yuan Cao.
+\newblock {ReAct: Synergizing Reasoning and Acting in Language Models}.
+\newblock In \emph{International Conference on Learning Representations}, 2023.
+\newblock \url{https://arxiv.org/abs/2210.03629}.
+
+\end{thebibliography}

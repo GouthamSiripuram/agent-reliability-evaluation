@@ -1,0 +1,41 @@
+{
+  "ready_to_freeze": true,
+  "review_type": "AI-assisted internal technical review, not independent human peer review",
+  "tests_passed": 21,
+  "development": {
+    "development/model_0.jsonl": {
+      "records": 56,
+      "primary_successes": 14,
+      "numeric_parses": 46,
+      "max_generation_seconds": 13.882231600116938
+    },
+    "development/model_1.jsonl": {
+      "records": 56,
+      "primary_successes": 5,
+      "numeric_parses": 32,
+      "max_generation_seconds": 18.77520169969648
+    },
+    "development_budget/model_0.jsonl": {
+      "records": 8,
+      "primary_successes": 4,
+      "numeric_parses": 6,
+      "max_generation_seconds": 11.450947200413793
+    },
+    "development_budget/model_1.jsonl": {
+      "records": 8,
+      "primary_successes": 0,
+      "numeric_parses": 0,
+      "max_generation_seconds": 15.197562700137496
+    }
+  },
+  "evaluation_started": false,
+  "larger_budget_gpu_check_passed": true,
+  "v04_frozen_files_unchanged": true,
+  "known_limitations": [
+    "Small checkpoints in one model family; public benchmark contamination possible.",
+    "Substantial primary-versus-format-sensitivity difference in development; both reported, no latent-math-accuracy claim.",
+    "Prompt and role allocation remain part of concrete workflow definitions.",
+    "Statistical intervals condition on the fitted router; no training-sample uncertainty claim."
+  ],
+  "human_author_review_of_final_claims": "required before submission"
+}
