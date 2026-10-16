@@ -1,12 +1,12 @@
 \documentclass[10pt]{article}
 \usepackage[preprint]{tmlr}
 \usepackage{amsmath,amssymb,booktabs,graphicx,hyperref,url}
-\hypersetup{pdfauthor={Goutham Siripuram},pdftitle={Reporting Agent Reliability under Partial Observation: Exposure-Matched Fault Tests and Score Bounds}}
+\hypersetup{pdfauthor={Goutham Siripuram; Akshitha Mulastam},pdftitle={Reporting Agent Reliability under Partial Observation: Exposure-Matched Fault Tests and Score Bounds}}
 \title{Reporting Agent Reliability under Partial Observation: Exposure-Matched Fault Tests and Score Bounds}
-\author{\name Goutham Siripuram}
+\author{\name Goutham Siripuram \AND \name Akshitha Mulastam}
 \begin{document}
 \maketitle
-\begingroup\renewcommand{\thefootnote}{}\footnotetext{Generative AI assisted drafting, code development, editing, and internal technical validation. The human author is responsible for the manuscript and its scientific claims. This assistance is not independent peer review.}\endgroup
+\begingroup\renewcommand{\thefootnote}{}\footnotetext{Generative AI assisted drafting, code development, editing, and internal technical validation. The human authors are responsible for the manuscript and its scientific claims. This assistance is not independent peer review.}\endgroup
 \begin{abstract}
 Fault tests can produce misleading reliability summaries when task completion, actual exposure, and recovery are treated as interchangeable observations. We present a reporting design that branches clean, timeout, and instruction-injection continuations from a common eligible calculator request, and give elementary bounds for a fixed geometric scoring rule with missing components. A local study uses 64 GSM8K questions, two checkpoints, and two seeds, producing 768 condition records. Eligible exposure occurs in 125 of 128 Qwen3 prefixes and 93 of 128 Qwen2.5 prefixes. Injection reduces overall format-constrained success by 21.88 and 24.22 percentage points, respectively; the corresponding eligible-population reductions are 22.40 and 33.33 points. This difference illustrates why a population-wide effect and an exposure-conditional effect answer different questions. The study provides a reproducible reporting example, not validation of a universal reliability scale or broad security robustness.
 \end{abstract}
@@ -176,7 +176,7 @@ The local calculator has bounded arithmetic rather than real account or infrastr
 
 \section{Conclusion}
 Exposure-matched fault tests provide a concrete way to distinguish an overall effect from an effect among tested prefixes. In this local study that distinction changes the reported Qwen2.5 injection reduction from 24.22 to 33.33 percentage points. Elementary score bounds similarly make missing components explicit without claiming to validate a latent reliability scale. The benefit is more interpretable reporting; broader environments and independently justified rubrics remain future work.
-\section*{Availability}\url{https://github.com/GouthamSiripuram/agent-reliability-evaluation}. This manuscript is a preprint; no arXiv identifier or peer-review acceptance is claimed.
+\section*{Author contributions}Goutham Siripuram and Akshitha Mulastam contributed equally to this work.\section*{Availability}\url{https://github.com/GouthamSiripuram/agent-reliability-evaluation}. This manuscript is a preprint; no arXiv identifier or peer-review acceptance is claimed.
 \bibliography{references}
 \bibliographystyle{tmlr}
 \end{document}

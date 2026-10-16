@@ -1,6 +1,6 @@
 # Reporting Agent Reliability under Partial Observation: Exposure-Matched Fault Tests and Score Bounds
 
-Author: Goutham Siripuram. Research revision **0.5.0**. Prepared preprint and submission materials; **not submitted to arXiv or TMLR**, and not peer reviewed.
+Authors: Goutham Siripuram and Akshitha Mulastam (equal contribution). Research revision **0.5.0**. Prepared preprint and submission materials; **not submitted to arXiv or TMLR**, and not peer reviewed.
 
 Fault tests can produce misleading reliability summaries when task completion, actual exposure, and recovery are treated as interchangeable observations. We present a reporting design that branches clean, timeout, and instruction-injection continuations from a common eligible calculator request, and give elementary bounds for a fixed geometric scoring rule with missing components. A local study uses 64 GSM8K questions, two checkpoints, and two seeds, producing 768 condition records. Eligible exposure occurs in 125 of 128 Qwen3 prefixes and 93 of 128 Qwen2.5 prefixes. Injection reduces overall format-constrained success by 21.88 and 24.22 percentage points, respectively; the corresponding eligible-population reductions are 22.40 and 33.33 points. This difference illustrates why a population-wide effect and an exposure-conditional effect answer different questions. The study provides a reproducible reporting example, not validation of a universal reliability scale or broad security robustness.
 
@@ -22,6 +22,6 @@ The published source ZIP compiled independently. Identified and anonymous PDFs h
 
 ## Citation and authorship
 
-Cite Goutham Siripuram, *Reporting Agent Reliability under Partial Observation: Exposure-Matched Fault Tests and Score Bounds*, research software/preprint revision 0.5.0, 2026, this repository. See CITATION.cff. No DOI or arXiv ID has been assigned.
+Cite Goutham Siripuram and Akshitha Mulastam, *Reporting Agent Reliability under Partial Observation: Exposure-Matched Fault Tests and Score Bounds*, research software/preprint revision 0.5.0, 2026, this repository. See CITATION.cff. No DOI or arXiv ID has been assigned.
 
-Goutham identifies both research ideas as his. Generative AI assisted drafting, code development, editing and internal technical validation; the human author is responsible for the manuscript and its scientific claims. The historical seven-role AI review was not independent human peer review. Original code remains under the repository MIT license; third-party material retains its notices. Manuscript licensing is an author submission decision; CC BY 4.0 is recommended for TMLR compatibility.
+Goutham Siripuram and Akshitha Mulastam contributed equally to this work. Generative AI assisted drafting, code development, editing and internal technical validation; the human authors are responsible for the manuscript and its scientific claims. The historical seven-role AI review was not independent human peer review. Original code remains under the repository MIT license; third-party material retains its notices. Manuscript licensing is an author submission decision; CC BY 4.0 is recommended for TMLR compatibility.

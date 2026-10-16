@@ -5,6 +5,8 @@ type: software
 authors:
   - family-names: Siripuram
     given-names: Goutham
+  - family-names: Mulastam
+    given-names: Akshitha
 version: 0.5.0
 date-released: 2026-10-15
 license: MIT

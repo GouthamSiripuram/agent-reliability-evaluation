@@ -2,7 +2,9 @@
 
 Title: Reporting Agent Reliability under Partial Observation: Exposure-Matched Fault Tests and Score Bounds
 
-Author: Goutham Siripuram
+Authors: Goutham Siripuram; Akshitha Mulastam
+
+Author contributions: Both authors contributed equally to this work.
 
 Suggested primary category: cs.AI
 Suggested secondary category: cs.SE (subject to arXiv classification)
@@ -18,6 +20,6 @@ Keywords: agent evaluation; fault injection; partial observation; reliability me
 
 GitHub repository: https://github.com/GouthamSiripuram/agent-reliability-evaluation
 
-AI-assistance disclosure: Generative AI assisted drafting, code development, editing, and internal technical validation. The human author is responsible for the manuscript and its scientific claims. This assistance is not independent peer review.
+AI-assistance disclosure: Generative AI assisted drafting, code development, editing, and internal technical validation. The human authors are responsible for the manuscript and its scientific claims. This assistance is not independent peer review.
 
 Status: prepared preprint; not submitted to arXiv or TMLR. No arXiv ID or DOI has been assigned. The anonymous review template's standard header does not mean a submission has occurred.
